@@ -28,7 +28,7 @@
       <file leaf-file-name="PageProductsComponent.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/modules/products/angular/components/pageProducts/PageProductsComponent.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="461">
+            <state relative-caret-position="726">
               <caret line="77" column="120" selection-start-line="77" selection-start-column="120" selection-end-line="77" selection-end-column="120" />
               <folding>
                 <element signature="e#0#68#0" expanded="true" />
@@ -371,12 +371,12 @@
       <updated>1471159951012</updated>
       <workItem from="1471159953378" duration="59000" />
       <workItem from="1471160032887" duration="13965000" />
-      <workItem from="1471342691650" duration="21662000" />
+      <workItem from="1471342691650" duration="22390000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35686000" />
+    <option name="totallyTimeSpent" value="36414000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -813,7 +813,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/modules/products/angular/components/pageProducts/PageProductsComponent.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="461">
+        <state relative-caret-position="726">
           <caret line="77" column="120" selection-start-line="77" selection-start-column="120" selection-end-line="77" selection-end-column="120" />
           <folding>
             <element signature="e#0#68#0" expanded="true" />
