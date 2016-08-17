@@ -30,6 +30,7 @@ export class PageProductsComponent implements ng.IComponentOptions {
                           </div>
                     </div>
                     <br/>                                           
+                    
                     <div class="list-group">
                         <div class="media list-group-item" ng-repeat="product in $ctrl.model.products| filter:$ctrl.model.query | startFrom:$ctrl.model.currentPage*$ctrl.model.pageSize| limitTo: $ctrl.model.pageSize" ng-cloak>
                             <div class="media-left media-bottom">
@@ -56,11 +57,29 @@ export class PageProductsComponent implements ng.IComponentOptions {
                              </li>
                           </ul>
                         </nav>
-                        
                     </div>
-                    
+                </div>    
                 <div class="col-md-6">
-                    
+                    <fieldset>
+                        <legend>Product</legend>
+                        
+                         <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Product name">
+                          </div>
+                          
+                         <div class="form-group">
+                            <label for="description">Description</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                         </div>
+                         
+                         <div class="form-group">
+                            <label for="price">Price</label>
+                            <input type="text" class="form-control" style="width: 80px;" id="price" placeholder="Price">
+                         </div>
+                         
+                         <button class="btn btn-primary pull-right">Save</button>
+                    </fieldset>
                 </div>
             </div>
         </div>
